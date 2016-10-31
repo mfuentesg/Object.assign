@@ -1,0 +1,21 @@
+{
+  "name": "Object.assign",
+  "version": "1.0.0",
+  "description": "Object.assign wrapper",
+  "main": "assign.js",
+  "scripts": {
+    "linter": "./node_modules/.bin/eslint **/*.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "url": "git@github.com:mfuentesg/Object.assign.git",
+    "type": "git"
+  },
+  "author": "Marcelo Fuentes <marceloe.fuentes@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2"
+  }
+}
