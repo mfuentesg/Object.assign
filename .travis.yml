@@ -5,11 +5,8 @@ node_js:
   - "5.11"
   - "0.6"
 
-before_install:
-  - npm install -g yarn
-
 install:
-  - yarn install
+  - npm install
 
 script:
-  - yarn run test
+  - npm test
