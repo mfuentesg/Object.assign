@@ -1,10 +1,10 @@
 !(function(root, moduleName, factory) {
   if (typeof module === 'object' && module.exports) {
     // CommonJS support
-    module.exports = factory(require(moduleName));
+    module.exports = factory();
   } else if (typeof define === 'function' && define.amd) {
     // AMD support
-    define([moduleName], factory);
+    define(factory);
   } else {
     // Browser support
     root[moduleName] = factory(root[moduleName]);
